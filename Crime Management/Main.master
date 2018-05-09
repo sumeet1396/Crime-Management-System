@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mumbai Police</title>
+    <meta charset="UTF-8" />
+	<meta name="description" content="Labs - Design Studio" />
+	<meta name="keywords" content="lab, onepage, creative, html" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Favicon -->
+	<link href="img/logo.gif" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!-- Page Preloder -->
+	<%--<div id="preloder">
+		<div class="loader">
+			<img src="img/logo.gif" alt="">
+			<h2>Loading.....</h2>
+		</div>
+	</div>--%>
+
+
+	<!-- Header section -->
+   <div class="example1" style="top: 0px;"><center><marquee onMouseOver="this.stop()" onMouseOut="this.start()" height="30px" style="color:gold; background-color: navy;">             Help Mumbai Police, SMS your grievance on 7738133133 or 7738144144, Police Control Room 100. Mumbai Police Elder Line 1090, Traffic Whatsapp Helpline 8454999999, Alert Citizen 103
+
+Emergency Details:   	
+Help Mumbai Police, Serve you better, SMS your grievance on 7738133133 or 7738144144, Police Control Room 100 , Mumbai Police Elder Line 1090, Alert Citizen 103   
+</marquee></center></div>
+	<header class="header-section">
+		<div class="logo">
+			<img src="img/logo.gif" height="131" width="32" alt=""><!-- Logo -->
+		</div>
+		<!-- Navigation -->
+		<div class="responsive"><i class="fa fa-bars"></i></div>
+		<nav>
+			<ul class="menu-list">
+				<li><a href="Default.aspx">Home</a></li>
+				<li><a href="Emergency.aspx">Emergency Links</a></li>
+				<li><a href="safety.aspx">Safety Tips</a></li>
+				<li><a href="contact.aspx">Contact</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<h2>Copyrights 2018<a href="Login.aspx" style="color:navy">.</a> All Rights Reserved</h2>
+        	</footer>
+
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOebivMpB0sbtCPbwC-A_8FVp2WqYpwUo&callback=myMap"></script>
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+    </div>
+    </form>
+</body>
+</html>

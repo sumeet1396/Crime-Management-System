@@ -1,0 +1,57 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.row1
+{
+    width:90%;
+    height:350px;
+    border:2px solid black;
+    position:relative;
+    left:5%;
+    border-radius:15px;
+    box-shadow: 0px 0px 3px 3px #808080;
+}
+.pic
+{
+    position:absolute;
+    left:3%;
+    top:5%;
+}
+.name
+{
+    position:absolute;
+    left:25%;
+    top:15%;
+    font-size:24px;
+}
+
+.dt1
+{
+    position:absolute;
+    left:25%;
+    top:22%;
+    font-size:24px;
+}
+.dt2
+{
+    position:absolute;
+    left:25%;
+    top:30%;
+    font-size:24px;
+}
+.dt3
+{
+  position:absolute;
+    left:25%;
+    top:38%;
+    font-size:24px;
+}
+
+.dt4
+{
+  position:absolute;
+    left:25%;
+    top:45%;
+    font-size:24px;
+}
